@@ -1,1 +1,4 @@
 /* BASIC STYLES HERE */
+.card-height {
+    min-height: 37vh !important;
+}

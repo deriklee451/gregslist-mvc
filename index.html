@@ -12,7 +12,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
-  <title>ltFall22_gregsList</title>
+  <title>GregsList</title>
 </head>
 
 <body>
@@ -21,10 +21,10 @@
       <a class="navbar-brand ms-3" href="#">
         <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
           loading="lazy">
-        <span class="ms-2">ltFall22_gregsList</span>
+        <span class="ms-2">GregsList</span>
       </a>
       <button class="btn btn-primary me-3" onclick="app.carsController.showCars()">Cars</button>
-      <button class="btn btn-primary">Homes</button>
+      <button class="btn btn-primary" onclick="app.homesController.showHomes()">Homes</button>
     </nav>
   </header>
   <main>
@@ -72,17 +72,20 @@
           </form> -->
         </div>
       </div>
+
       <div class="row" id="listings">
+
         <!-- FIXME Step 3: Build out a template for our model -->
         <!-- STUB Car template -->
         <!-- <div class="col-4 p-4">
           <div class="card">
-            <img src="https://www.autotrader.com/wp-content/uploads/2020/02/vueredline-1.jpg" class="card-img-top"
-              alt="vue">
+            <img
+              src="https://images.unsplash.com/photo-1619216083420-6e54b895f730?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="card-img-top" alt="house">
             <div class="card-body">
               <h5 class="card-title d-flex justify-content-between mb-2">
-                <span>Saturn Vue</span>
-                <span>$1000</span>
+                <span>4/bd 3/ba</span>
+                <span>$120000</span>
               </h5>
               <button class="btn btn-primary">
                 See Details
